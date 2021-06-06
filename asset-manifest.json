@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/profile-card/static/css/main.033061fe.chunk.css",
+    "main.js": "/profile-card/static/js/main.979fa3bf.chunk.js",
+    "main.js.map": "/profile-card/static/js/main.979fa3bf.chunk.js.map",
+    "runtime-main.js": "/profile-card/static/js/runtime-main.fecd2f41.js",
+    "runtime-main.js.map": "/profile-card/static/js/runtime-main.fecd2f41.js.map",
+    "static/js/2.c7c13b5a.chunk.js": "/profile-card/static/js/2.c7c13b5a.chunk.js",
+    "static/js/2.c7c13b5a.chunk.js.map": "/profile-card/static/js/2.c7c13b5a.chunk.js.map",
+    "index.html": "/profile-card/index.html",
+    "static/css/main.033061fe.chunk.css.map": "/profile-card/static/css/main.033061fe.chunk.css.map",
+    "static/js/2.c7c13b5a.chunk.js.LICENSE.txt": "/profile-card/static/js/2.c7c13b5a.chunk.js.LICENSE.txt",
+    "static/media/22.10ffdc61.jpg": "/profile-card/static/media/22.10ffdc61.jpg",
+    "static/media/RkiMyoycj.b314e577.png": "/profile-card/static/media/RkiMyoycj.b314e577.png",
+    "static/media/github.d3263084.png": "/profile-card/static/media/github.d3263084.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fecd2f41.js",
+    "static/js/2.c7c13b5a.chunk.js",
+    "static/css/main.033061fe.chunk.css",
+    "static/js/main.979fa3bf.chunk.js"
+  ]
+}
