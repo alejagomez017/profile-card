@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Roboto", sans-serif !important;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  min-width: 375px;
+  height: 100vh;
+  padding: 5%;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media all and (min-width: 1150px) {
+  body {
+    padding: 0;
+  }
+}
+body .App {
+  background: #a3ffff;
+  box-shadow: 1px 1px 30px 3px rgba(35, 35, 35, 0.5);
+  padding: 5%;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media all and (min-width: 1150px) {
+  body .App {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+  }
+}
+body .App .pro-img-div {
+  width: 40%;
+}
+body .App .pro-img-div .pro-img {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+body .App footer {
+  width: 50%;
+  text-align:center;
+  margin: 6% 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+@media all and (min-width: 1150px) {
+  body .App footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    margin: 20px 0;
+  }
+}
+body .App footer img {
+  width: 30%;
+
+}
+@media all and (min-width: 1150px) {
+  body .App footer img {
+    width: 15%;
+    margin: 20px 0;
+  }
+}
+body .App .display {
+  margin: 18px 0;
+  text-align: center;
+  width: 100%;
+  border-bottom: 8px dashed #232323;
+}
+@media all and (min-width: 1150px) {
+  body .App .display {
+    border: none;
+    text-align: right;
+    position: relative;
+    left: 15%;
+    width: 50%;
+  }
+}
+body .App .display button {
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #f59cf0;
+  border: none;
+  padding: 8px 18px;
+  font-weight: bold;
+  margin: 0 8px;
+  border-radius: 5px;
+}
+@media all and (min-width: 1150px) {
+  body .App .display button {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+}
+body .App .display button:hover {
+  background: #52e4ee;
+  color: #000000;
+  cursor: pointer;
+}
+body .App .display p {
+  margin: 20px;
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #fa8ceb;
+}
+@media all and (min-width: 1150px) {
+  body .App .display p {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 30px 0;
+  }
+}
+body .App .like {
+  width: 15%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media all and (min-width: 1150px) {
+  body .App .like {
+    position: relative;
+    left: 74.5%;
+    top: 5%;
+    width: 10%;
+  }
+}
+body .App .like:hover {
+  cursor: pointer;
+}
+body .App .like span {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-size: 25px;
+  color: #070706;
+}
+
+
+/*# sourceMappingURL=index.css.map */
